@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Footer(){return <footer className="footer"><div className="wrap footrow"><div><div className="footbrand">9A6A<span> / AMATEUR RADIO</span></div><p>DX · CONTEST · RADIO TECHNOLOGY · TRAVEL</p></div><div className="footright"><Link href="/archive">Arhiva članaka</Link><br/><a href="https://9a6a.wordpress.com/" target="_blank" rel="noreferrer">Izvorna WordPress stranica ↗</a><br/><small>Nova digitalna arhiva · 2026</small></div></div></footer>}

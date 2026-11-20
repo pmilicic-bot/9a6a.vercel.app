@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Header(){return <header className="topbar"><div className="nav wrap"><Link href="/" className="brand"><span className="brand-mark">9A</span><span><b>9A6A</b><small>AMATEUR RADIO JOURNAL</small></span></Link><nav><Link href="/archive">ARHIVA</Link><Link href="/#radio">RADIO</Link><Link href="/#technology">PUTOVANJA</Link><Link href="/about">O MENI</Link></nav><a className="onair" href="https://www.qrz.com/db/9A6A" target="_blank" rel="noreferrer"><i/> 9A6A · QRZ</a></div></header>}
